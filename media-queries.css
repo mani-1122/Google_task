@@ -1,0 +1,439 @@
+@media (min-width:1281px)
+{
+    .search-button
+    {
+        right: 300px; 
+    }
+}
+
+@media (min-width:1000px) and (max-width:1281px)
+{
+    .search-button
+    {
+        right: 200px; 
+    }
+}
+@media (max-width:768px) 
+{
+
+    .search-button
+    {
+        right: 120px; 
+    }
+    #icon-container
+    {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .icon img
+    {
+        width: 50px;
+        height: auto;
+    }
+    .card
+    {
+       position: absolute;
+       top: 600px;
+       width: 32%;
+       justify-content: center;
+       align-items: center;
+       font-size: 10px;
+    }
+    
+    #note .card 
+    {
+     
+        right: 400px;
+        
+    }
+    #count .card
+    {
+        left: 400px;
+        height: 21%;
+
+    }
+    #times .card
+    {
+        top: 450px;
+        left: 250px;
+        width: 53%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .clock h1
+    {
+        position: relative;
+        top: -50px;
+    }
+    .clock ul
+    {
+        bottom: 500px;
+    } 
+    .clock ul li
+    {
+       position: relative;
+       top: -25px;
+       right: -50px;
+       font-size: 25px;    
+    }
+}
+@media (max-width:480px)
+{
+    #search-input
+    {
+        width: 100%;
+        height: 10px;
+        font-size: 15px;
+    }
+    .search-button
+    {
+        right: -10px;    
+    }
+    .search-button button
+    {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+    }
+     i.fa-solid.fa-magnifying-glass
+    {
+        left:-7px;
+        top: -5px;
+        position: relative;
+    }
+    #times .card
+    {
+        top: 450px;
+        left: 110px;
+        width: 53%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    #note .card 
+    {
+     
+        right: 260px;
+        
+    }
+    #count .card
+    {
+        left: 270px;
+        height: 21%;
+
+    }
+} 
+/* }
+@media (max-width:768px) 
+{
+    .icon img
+    {
+        width: 50px;
+        height: auto;
+    }
+    #icon-container
+    {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .card
+    {
+       position: absolute;
+       top: 550px;
+       width: 40%;
+       justify-content: center;
+       align-items: center;
+       font-size: 10px;
+    }
+    #note .card 
+    {
+     
+        right: 250px;
+        
+    }
+    #count .card
+    {
+        left: 250px;
+        height: 21%;
+
+    }
+    #times .card
+    {
+        top: 400px;
+        left: 100px;
+        width: 53%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .clock h1
+    {
+        position: relative;
+        top: -50px;
+    }
+    .clock ul
+    {
+        bottom: 100px;
+    } 
+    .clock ul li
+    {
+       position: relative;
+       top: -25px;
+        font-size: 25px;    
+    }
+   
+    #search-input
+    {
+        width: 100%;
+        height: 10px;
+        font-size: 15px;
+    }
+    .search-button
+    {
+        right: -10px;    
+    }
+    .search-button button
+    {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+    }
+     i.fa-solid.fa-magnifying-glass
+    {
+        left:-7px;
+        top: -5px;
+        position: relative;
+    }
+} */
+@media (max-width:320px) 
+{
+    #search-input
+    {
+        width: 250px;
+        height: 8px;
+        left: 10px;
+        font-size: 15px;
+        position: relative;
+    }
+    .search-button
+    {
+        right: -50px;  
+        top: 43px;  
+    }
+    .search-button button
+    {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+    }
+    i.fa-solid.fa-magnifying-glass
+    {
+        left:-7px;
+        top: -5px;
+        position: relative;
+    }
+    .icon img
+    {
+        width: 50px;
+        height: auto;
+    }
+    #icon-container
+    {
+        grid-template-columns: repeat(3, 1fr);
+        right: 10px;
+        position: absolute;
+    }
+
+    #note .card 
+    {
+        right: 160px; 
+         
+    }
+    #count .card
+    {
+        left: 180px;
+        height: 21%;
+    }
+    #times .card
+    {
+        top: 450px;
+        left: 25px;
+        width: 75%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card
+    {
+        top: 600px;
+        width: 35%;
+        position: absolute;
+    }
+}
+/* @media (max-width:390px)
+{
+    #icon-container
+    {
+        position: absolute;
+    }
+    #note .card 
+    {
+        right: 100px; 
+         
+    }
+    #count .card
+    {
+        left: 165px;
+        height: 17%;
+    } 
+    #times .card
+    {
+        top: 100px;
+        left: 20px;
+        width: 75%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .card
+    {
+        top: 600px;
+        width: 35%;
+        position: absolute;
+    }
+} */
+/* @media screen and (min-width: 992px)
+ {
+    .search-button
+    {
+        right: 280px;
+       
+        
+    }
+    #icon-container
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    .right-container
+    {
+        width: 20%;
+    }
+    .icon
+    {
+        flex-direction:column;
+        
+    }
+    #date
+    {
+        font-size: 15px; 
+    }
+    .clock ul li
+    {
+       
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .search-button
+    {
+        right: 120px;
+        
+    }
+    .clock ul li
+    {
+       
+        font-size: 8px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+    }
+    #date
+    {
+        font-size: 10px; 
+    }
+}
+@media screen and (max-device-width: 480px)
+{
+    
+     .card
+    {
+       position: absolute;
+       top: 550px;
+       width: 40%;
+       justify-content: center;
+       align-items: center;
+       font-size: 10px;
+    }
+    #note .card 
+    {
+     
+        right: 250px;
+        
+    }
+    #count .card
+    {
+        left: 250px;
+
+    }
+    #times .card
+    {
+        top: 400px;
+        left: 100px;
+        width: 50%;
+        height: 8%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+   .clock h1
+    {
+        position: relative;
+        top: -45px;
+    }
+    .clock ul
+    {
+        bottom: 100px;
+        
+    } 
+    .clock ul li
+    {
+       position: relative;
+       top: -25px;
+        font-size: 25px;    
+    }
+    
+    .search-container
+    {
+        width: 100%;
+    }
+    #search-input
+    {
+        width: 100%;
+    }
+    .search-button
+    {
+        right: 10px;
+        
+    } 
+    .icon
+    {
+        flex-direction: row;
+       
+    }
+    .icon img
+    {
+        width: 50px;
+        height: 50px;
+    }
+} */
